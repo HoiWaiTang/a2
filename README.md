@@ -19,18 +19,22 @@ Input custom time when you plan on napping/sleeping at another time
 Keybinds for efficiency (Did you know that using keyboard shortcuts is estimated to save you 64 hours a year?)
 
 ## Setup
-If you want to use the GUI via Python:
+To use the .exe:
+Downloaded the .exe
+The .exe can be used when your device is connected to the Internet
+
+To use the .pyw:
 pip install datetime
 pip install geocoder
 pip install suntime
 pip install tkinter
-The .pyw is ready to be used
+The .pyw can be used when your device is connected to the Internet
 
-Optionally, if you want to use the GUI as an executable:
+Optionally, to convert the .pyw into .exe:
 pip install pyinstaller
 Open Git Bash or type in "cmd" in the file directory of where the .pyw is located
 Input "pyinstaller --onefile Alarm_Calculator.pyw" and press Enter
-The .exe is generated in the "dist" folder for use and you may delete the newly generated unecessary assets
+The .exe is generated in the "dist" folder for use when your device is connected to the Internet and you may delete the newly generated unecessary assets
 
 ## Usage
 Choose your own start time by typing in the time in HH:MM format into the entry field and click the button
