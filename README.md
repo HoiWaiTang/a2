@@ -60,7 +60,7 @@ I acknowledge the use of ChatGPT (https://chat.openai.com/) to generate parts of
 
 Prompt 1:
 Can you make it so that users can input the custom time and the code will take the input to perform time calculations?
-
+```
 #datetime import retrieved from https://stackoverflow.com/questions/68632685/alarm-clock-in-python
 from datetime import datetime, timedelta
 #tkinter GUI toolkit import retrieved from https://www.geeksforgeeks.org/python-gui-tkinter/
@@ -190,12 +190,12 @@ update_times()
 
 #Setting tkinter loop retrieved from https://www.geeksforgeeks.org/python-gui-tkinter/
 root.mainloop()
-
+```
 Output 1:
 To allow users to input a custom time and perform time calculations based on it, we can modify the update_times function to accept an optional custom time. If a user provides input, the program will use the custom time instead of the current time for calculations.
 
 Here is the updated version of your code that allows custom time input:
-
+```
 from datetime import datetime, timedelta
 import tkinter as tk
 from tkinter import *
@@ -330,7 +330,7 @@ update_times()
 
 # Setting tkinter loop
 root.mainloop()
-
+```
 Key changes:
 
     The update_times function now accepts an optional custom_time argument.
@@ -339,6 +339,7 @@ Key changes:
     The user can input custom times in the format HH:MM, and the system will calculate based on that.
 
 Prompt 2:
+```
 #datetime import retrieved from 
 from datetime import date, datetime, timedelta
 #tkinter GUI toolkit import retrieved from https://www.geeksforgeeks.org/python-gui-tkinter/
@@ -522,7 +523,7 @@ update_times()
 
 #Setting tkinter loop retrieved from https://www.geeksforgeeks.org/python-gui-tkinter/
 root.mainloop()
-
+```
 What's the issue here?
 
 Output 2:
@@ -541,7 +542,7 @@ Here’s how you can fix these issues:
     Ensure now is defined when calculating the next event.
 
 Corrected code:
-
+```
 from datetime import date, datetime, timedelta
 import tkinter as tk
 from tkinter import *
@@ -716,7 +717,7 @@ root.bind("<x>", close_ui)
 # Start UI and show times
 update_times()
 root.mainloop()
-
+```
 Changes:
 
     sunrise_today and sunset_today: Replaced with sr_today and ss_today.
