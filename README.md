@@ -9,10 +9,8 @@
 * [Contact](#contact)
 
 ## General info
-```
 This Python script with a Graphical User Interface (GUI) calculates and displays a small list of alarm durations so that you can wake up without feeling tired or needing to set a lot of alarms by showing you times which you will likely be in light sleep.
 An Internet connection is required for the script to function.
-```
 
 ## Features
 * Uses the current time to begin calculating the times you should set your alarm to
