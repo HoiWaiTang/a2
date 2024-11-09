@@ -9,33 +9,38 @@
 * [Contact](#contact)
 
 ## General info
+```
 This Python script with a Graphical User Interface (GUI) calculates and displays a small list of alarm durations so that you can wake up without feeling tired or needing to set a lot of alarms by showing you times which you will likely be in light sleep.
 An Internet connection is required for the script to function.
+```
 
 ## Features
-Uses the current time to begin calculating the times you should set your alarm to
-Calculates when's the next sunrise and sunset if you wake up before said times
-Input custom time when you plan on napping/sleeping at another time
-Keybinds for efficiency (Did you know that using keyboard shortcuts is estimated to save you 64 hours a year?)
+* Uses the current time to begin calculating the times you should set your alarm to
+* Calculates when's the next sunrise and sunset if you wake up before said times
+* Input custom time when you plan on napping/sleeping at another time
+* Keybinds for efficiency (Did you know that using keyboard shortcuts is estimated to save you 64 hours a year?)
 
 ## Setup
 To use the .exe:
+```
 Downloaded the .exe
 The .exe can be used when your device is connected to the Internet
-
+```
 To use the .pyw:
+```
 pip install datetime
 pip install geocoder
 pip install suntime
 pip install tkinter
 The .pyw can be used when your device is connected to the Internet
-
+```
 Optionally, to convert the .pyw into .exe:
+```
 pip install pyinstaller
 Open Git Bash or type in "cmd" in the file directory of where the .pyw is located
 Input "pyinstaller --onefile Alarm_Calculator.pyw" and press Enter
 The .exe is generated in the "dist" folder for use when your device is connected to the Internet and you may delete the newly generated unecessary assets
-
+```
 ## Usage
 Choose your own start time by typing in the time in HH:MM format into the entry field and click the button
 Refresh/reset the calculated times by clicking the "Refresh/Reset" button at the bottom or press F5, R, or the space bar
@@ -45,11 +50,11 @@ Use X or the Escape key to terminate the GUI
 The project ceases development with the submission for A2 in the UTS course 52685 Working with Data and Code.
 
 ## Room for Improvement
-.apk support
-.app support
-.ipa support
-Offline usage
-Optimizations
+* .apk support
+* .app support
+* .ipa support
+* Offline usage
+* Optimizations
 
 ## Acknowledgements
 I acknowledge the use of ChatGPT (https://chat.openai.com/) to generate parts of the script that were beyond my experience and skill level.
