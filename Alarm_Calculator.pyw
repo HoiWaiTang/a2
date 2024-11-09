@@ -1,4 +1,4 @@
-#datetime import retrieved from 
+#datetime import retrieved from https://stackoverflow.com/questions/68632685/alarm-clock-in-python
 from datetime import date, datetime, timedelta
 #tkinter GUI toolkit import retrieved from https://www.geeksforgeeks.org/python-gui-tkinter/
 import tkinter as tk
