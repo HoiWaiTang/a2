@@ -37,7 +37,8 @@ Optionally, to convert the .pyw into .exe:
 pip install pyinstaller
 Open Git Bash or type in "cmd" in the file directory of where the .pyw is located
 Input "pyinstaller --onefile Alarm_Calculator.pyw" and press Enter
-The .exe is generated in the "dist" folder for use when your device is connected to the Internet and you may delete the newly generated unecessary assets
+The .exe is generated in the "dist" folder for use when your device is connected to the Internet
+Delete the newly generated unnecessary assets to free up storage space
 ```
 ## Usage
 Choose your own start time by typing in the time in HH:MM format into the entry field and click the button
